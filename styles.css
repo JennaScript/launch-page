@@ -1,0 +1,17 @@
+body {
+    color: darkmagenta;
+}
+
+.navbar { 
+    padding: 1rem;
+    background-color: pink;
+}
+
+.bg-secondary {
+    color: plum;
+}
+
+.btn-primary:hover {
+    background-color: purple;
+    color: white;
+}
