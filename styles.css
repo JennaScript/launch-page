@@ -19,3 +19,22 @@ body {
 nav a:hover {
     color: white;
 }
+
+.hero-background-img {
+    position: relative;
+    background-image: url(images/codportrait.jpeg);
+    padding-top: 200px;  
+    padding-bottom: 200px;
+}
+
+.hero-background-img:after {
+    content: "";
+    position: absolute;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 1; 
+}
